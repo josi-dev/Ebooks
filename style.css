@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* icone menu */
+#iconMenu {
+    
+    
+}
+
+#iconMenu div {
+    border-top: 2px solid black;
+    width: 7vh;
+    margin-top: 2vh;
+}
+
+#iconMenu div:nth-child(1) {
+    margin-left: 5vh;
+}
+#iconMenu div:nth-child(2) {
+    margin-left: 3vh;
+}
+#iconMenu div:nth-child(3) {
+    margin-left: 1vh;
+}
+
+.linhaUm {
+    transform: translateX(-5vh);
+    transition: transform 1.2s linear;
+}
+
+.linhaDois {
+    transform: translateX(-3vh);
+    transition: transform 800ms linear;
+}
+
+.linhaTres {
+    transform: translateX(-1vh);
+    transition: transform 300ms linear;
+}
+/* icone menu */
+
+/* menu */
+#menu {
+    width: 45%;
+    margin-left: -30vh;
+    border: 2px solid blue;
+}
+
+#menu ul {
+    padding: 2vh 0;
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    text-align: center;
+}
+
+#menu ul:hover {
+    background-color: gray;
+}
+
+.me {
+    transform: translateX(29vh);
+    transition: transform 1.5s linear;
+}
+
+
+/* menu */
+
+#painel {
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#painel div {
+    min-width: 100%;
+    height: 40vh;
+    display: block;
+    transition: all 1.5s linear;
+}
+
+#painel div:nth-child(1) {
+    background-color: blue;
+    background-image: url('https://img.freepik.com/fotos-gratis/designer-de-interiores-trabalhando-em-projeto-de-decoracao_23-2150334534.jpg?w=740&t=st=1700518906~exp=1700519506~hmac=778e827ce66ff4d9d02f7fa704d4d5d7babb81beb1c0b8ee0b89d866990df040');
+    background-size: cover;
+}
+
+#painel div:nth-child(2) {
+    background-color: yellow;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkAFZ0lfcGKFKzNMRBNE09hdSs_nO3Nbiktw&usqp=CAU');
+    background-size: cover;
+}
+
+#painel div:nth-child(3) {
+    background-color: red;
+}
+
+
+
+
+
+#boxDivsPainel {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    overflow-x: auto;
+}
+
+#boxRadio {
+    width: 99%;
+    position: absolute;
+    bottom: 1vw;
+    text-align: center;
+}
+
+input[type = radio]{
+    width: 3vw;
+    accent-color: red;
+}
+
+
+
+
+
+.painel {
+    margin-top: 10vh;
+}
+
+.painel section {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+
+.painel legend {
+    font-size: 8vw;
+}
+
+.painel div {
+    min-width: 22vh;
+    max-width: 22vh;
+    min-height: 33vh;
+    border-radius: 4px;
+    
+    text-align: center;
+    
+    display: grid;
+    
+}
+
+.painel div legend {
+    font-size: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+
+.painel div:hover {
+    border: 2px solid purple;
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 100ms linear;
+}
